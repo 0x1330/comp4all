@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<title>HTML Cheat Sheet - A Simple Guide to HTML</title>
+<!-- Meta tags -->
+<meta name="description" content="HTML Cheat Sheet - A simple, quick reference list of basic HTML tags, codes and attributes" />
+<meta name="keywords" content="html, guide, simple, beginner, list, reference, lookup, htm, HTML, tags, examples, tutorial, concise, web, design, easy, form, table, image, frame, CSS, style, stylesheet, summary, cheatsheet, cheat, sheet, colour" />
+<meta name="resource-type" content="document" />
+<meta name="author" content="Robert Duncan, rhduncan@hotmail.com" />
+<meta name="copyright" content="(c) Robert Duncan" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="last-modified" content="22 Feb 2012, 23:06:28" />
+<!-- Meta links -->
+<link rel="start" href="http://www.simplehtmlguide.com/" title="A Simple Guide to HTML" />
+<link rel="stylesheet" type="text/css" href="style-prp.css" title="dark" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="favicon.ico" />
+<!-- AddThis account definition -->
+<script type="text/javascript">var addthis_pub="rhduncan";</script>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=rhduncan"></script>
+<script type="text/javascript">
+<!--
+	var addthis_config = {
+	      services_custom: {
+	              name: "Flattr",
+	              url: "http://flattr.com/submit/auto?url=http%3A%2F%2Fwww.simplehtmlguide.com%2F&title={{title}}&user_id=drgrog&category=text&language=en_GB",
+	              icon: "http://flattr.com/_img/icons/flattr_logo_16.png"}
+	}
+// -->
+</script>
+<script type="text/javascript">
+<!--
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28963230-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// -->
+</script>
+</head>
+
+<body id="home">
+<div id="wrap">
+
+ <!-- Header Image -->
+ <div id="logo">
+	<div id="logotext">A Simple Guide to HTML <a name="pagetop"></a> </div>
+ </div>
+ <!-- Top Navigation -->
+ <ul id="nav">
+  <li><a href="/">home</a></li>
+  <li><a href="essential.php" >html guide</a></li>
+  <li><a href="cheatsheet.php" >html cheat sheet</a></li>
+  <li><a href="csscheatsheet.php" >css cheat sheet</a></li>
+  <li><a href="examplesheet.php" >examples</a></li>
+  <li><a href="livedemo.php" >live demo</a></li>
+  <li><a href="search.php" >search</a></li>
+  <li><a href="contact.php" >contact me</a></li>
+ </ul>
+
+<div id="main-body">
+<div id="content">
+
+<!-- Page Content Starts Here -->
+<div class="mainheading" style="background: url(./images/help_faq.png) no-repeat top right;">
+<h1>HTML Cheat Sheet</h1></div>
+
+<div class="chapter">
+<p>This cheat sheet - or HTML code quick reference - lists the common HTML tags and their attributes, grouped into relevant sections in an easy-to-read format.</p>
+<p>What is <q>html</q>? What are <q>tags</q>? - Perhaps check out the <a href="whatishtml.php">what is html</a> section first :-)</p>
+</div>
+<div id="cheatsheet">
+
+<div class="chapter">
+ <div class="toplinks">
+ </div>
+	<table summary="layout" style="margin-bottom: 0px;">
+	<tr><th><h3>Basic HTML Structure <a name="essential"></a> </h3></th>
+	<th class="toplink"><a href="essential.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	</table>
+
+<pre class="code"><code style="line-height:1.4em">&lt;html&gt;
+ &lt;head&gt;
+  &lt;title&gt;website title&lt;/title&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  content of website ...
+ &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>The Basics <a name="basics"></a> </h3></th>
+	<th class="toplink"><a href="basics.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;h?&gt; ... &lt;/h?&gt;</td><td>Heading (?= 1 for largest to 6 for smallest, eg h1)</td></tr>
+	<tr><td class="code">&lt;p&gt; ... &lt;/p&gt;</td><td>Paragraph of Text</td></tr>
+	<tr><td class="code">&lt;b&gt; ... &lt;/b&gt;</td><td>Bold Text</td></tr>
+	<tr><td class="code">&lt;a href=&quot;<i>url</i>&quot;&gt; ... &lt;/a&gt;</td><td>Basic Link</td></tr>
+	<!-- <tr><td class="code">&lt;center&gt; ... &lt;/center&gt;</td> <td>Centre text horizontally</td></tr> -->
+	</table>
+</div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Text Formatting <a name="text"></a> </h3></th>
+	<th class="toplink"><a href="text.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;h?&gt; ... &lt;/h?&gt;</td><td>Heading (?= 1 for largest to 6 for smallest, eg h1)</td></tr>
+	<tr><td class="code">&lt;b&gt; ... &lt;/b&gt;</td><td>Bold Text</td></tr>
+	<tr><td class="code">&lt;i&gt; ... &lt;/i&gt;</td><td>Italic Text</td></tr>
+	<tr><td class="code">&lt;u&gt; ... &lt;/u&gt;</td><td>Underline Text</td></tr>
+	<tr><td class="code">&lt;strike&gt; ... &lt;/strike&gt;</td><td>Strikeout</td></tr>
+	<tr><td class="code">&lt;sup&gt; ... &lt;/sup&gt;</td><td>Superscript - Smaller text placed below normal text</td></tr>
+	<tr><td class="code">&lt;sub&gt; ... &lt;/sub&gt;</td><td>Subscript - Smaller text placed below normal text</td></tr>
+	<tr><td class="code">&lt;small&gt; ... &lt;/small&gt;</td><td>Small - Fineprint size text</td></tr>
+	<tr><td class="code">&lt;tt&gt; ... &lt;/tt&gt;</td><td>Typewriter Text</td></tr>
+	<tr><td class="code">&lt;pre&gt; ... &lt;/pre&gt;</td><td>Pre-formatted Text</td></tr>
+	<tr><td class="code">&lt;blockquote&gt; ... &lt;/blockquote&gt;</td><td>Text Block Quote</td></tr>
+	<tr><td class="code">&lt;strong&gt; ... &lt;/strong&gt;</td><td>Strong - Shown as Bold in most browsers</td></tr>
+	<tr><td class="code">&lt;em&gt; ... &lt;/em&gt;</td><td>Emphasis - Shown as Italics in most browsers</td></tr>
+	<tr><td class="code">&lt;font&gt; ... &lt;/font&gt;</td><td>Font tag obsolete, use <a href="whatiscss.php">CSS</a>. <a href="#superseeded">(*)</a></td></tr>
+	</table>
+</div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Section Divisions <a name="sections"></a> </h3></th>
+	<th class="toplink"><a href="divisions.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;div&gt; ... &lt;/div&gt;</td><td>Division (or Section) of Page Content</td></tr>
+	<tr><td class="code">&lt;p&gt; ... &lt;/p&gt;</td><td>Paragraph of Text</td></tr>
+	<tr><td class="code">&lt;br&gt;</td> <td>Line Break</td></tr>
+	<tr><td class="code">&lt;hr&gt;</td> <td>Basic Horizontal Line</td></tr>
+	<tr><td class="attrhead">&lt;hr&gt; Tag Attributes:</td></tr>
+	<tr><td class="codeindt">size=&quot;?&quot;</td><td>Line Thickness in pixels</td></tr>
+	<tr><td class="codeindt">width=&quot;?&quot;</td><td>Line Width in pixels</td></tr>
+	<tr><td class="codeindt">width=&quot;??%&quot;</td><td>Line Width as a percentage</td></tr>
+	<tr><td class="codeindt">color=&quot;#??????&quot;</td> <td>Line <a href="colours.php">Colour</a> <a href="#superseeded">(*)</a></td></tr>
+	<tr><td class="codeindt">align=&quot;?&quot;</td> <td>Horizontal Alignment: <code>left, center, right</code> <a href="#superseeded">(*)</a></td></tr>
+	<tr><td class="codeindt">noshade</td><td>No 3D cut-out</td></tr>
+	<tr><td class="code">&lt;nobr&gt; ... &lt;/nobr&gt;</td> <td>Line Break</td></tr>
+	</table>
+</div>
+
+<div class="chapter" style="padding-bottom:8px; text-align:center;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2119566567527844";
+/* 20090121_new_site_banner_468x60 */
+google_ad_slot = "5659933468";
+google_ad_width = 470;
+google_ad_height = 62;
+// -->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Images <a name="images"></a> </h3></th>
+	<th class="toplink"><a href="images.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;img src=&quot;<i>url</i>&quot; alt=&quot;<i>text</i>&quot;&gt;</td> <td>Basic Image</td></tr>
+	<tr><td class="attrhead">&lt;img&gt; Tag Attributes:</td></tr>
+	<tr><td class="codeindt">src=&quot;<i>url</i>&quot;</td><td>URL or filename of image (required!)</td></tr>
+	<tr><td class="codeindt">alt=&quot;<i>text</i>&quot;</td><td>Alternate Text (required!)</td></tr>
+	<tr><td class="codeindt">align=&quot;?&quot;</td><td>Image alignment within surrounding text <a href="#superseeded">(*)</a></td></tr>
+	<tr><td class="codeindt">width=&quot;??&quot;</td><td>Image width (in pixels or %)</td></tr>
+	<tr><td class="codeindt">height=&quot;??&quot;</td><td>Image height (in pixels or %)</td></tr>
+	<tr><td class="codeindt">border=&quot;??&quot;</td><td>Border thickness (in pixels) <a href="#superseeded">(*)</a></td></tr>
+	<tr><td class="codeindt">vspace=&quot;??&quot;</td><td>Space above and below image (in pixels) <a href="#superseeded">(*)</a></td></tr>
+	<tr><td class="codeindt">hspace=&quot;??&quot;</td><td>Space on either side of image (in pixels) <a href="#superseeded">(*)</a></td></tr>
+	</table>
+</div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Linking Tags <a name="linking"></a> </h3></th>
+	<th class="toplink"><a href="linking.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;a href=&quot;<i>url</i>&quot;&gt; <i>link text</i> &lt;/a&gt;</td><td>Basic Link</td></tr>
+	<tr><td class="attrhead">&lt;a&gt; Tag Attributes:</td></tr>
+	<tr><td class="codeindt">href=&quot;<i>url</i>&quot;</td>	<td>Location (url) of page to link to.</td></tr>
+	<tr><td class="codeindt">name=&quot;??&quot;</td>	<td>Name of link (name of anchor, or name of bookmark)</td></tr>
+	<tr><td class="codeindt">target=&quot;?&quot;</td>	<td>Link target location: <code>_self, _blank, _top, _parent</code>.</td></tr>
+	<tr><td class="codeindt">href=&quot;<i>url#bookmark</i>&quot;</td>	<td>Link to a bookmark (defined with <code>name</code> attribute).</td></tr>
+	<tr><td class="codeindt">href=&quot;mailto:<i>email</i>&quot;</td>	<td>Link which initiates an email (dependant on user's email client).</td></tr>
+	</table>
+</div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Lists <a name="lists"></a> </h3></th>
+	<th class="toplink"><a href="lists.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;ol&gt; ... &lt;/ol&gt;</td><td>Ordered List</td></tr>
+	<tr><td class="code">&lt;ul&gt; ... &lt;/ul&gt;</td><td>Un-ordered List</td></tr>
+	<tr><td class="code">&lt;li&gt; ... &lt;/li&gt;</td><td>List Item (within ordered or unordered)</td></tr>
+	<tr><td class="code">&lt;ol type=&quot;<i>?</i>&quot;&gt;</td>	<td>Ordered list type: <code> A, a, I, i, 1</code></td></tr>
+	<tr><td class="code">&lt;ol start=&quot;??&quot;&gt;</td>	<td>Ordered list starting value</td></tr>
+	<tr><td class="code">&lt;ul type=&quot;<i>?</i>&quot;&gt;</td>	<td>Unordered list bullet type: <code> disc, circle, square</code></td></tr>
+	<tr><td class="code">&lt;li value=&quot;??&quot;&gt;</td>	<td>List Item Value (changes current and subsequent items)</td></tr>
+	<tr><td class="code">&lt;li type=&quot;??&quot;&gt;</td>	<td>List Item Type (changes only current item)</td></tr>
+	<tr><td class="code">&lt;dl&gt; ... &lt;/dl&gt;</td><td>Definition List</td></tr>
+	<tr><td class="code">&lt;dt&gt; ... &lt;/dt&gt;</td><td>Term or phrase being defined</td></tr>
+	<tr><td class="code">&lt;dd&gt; ... &lt;/dd&gt;</td><td>Detailed Definition of term</td></tr>
+	</table>
+</div>
+
+<div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Tables <a name="tables"></a> </h3></th>
+	<th class="toplink"><a href="tables.php"><img src="images/help.png" class="mid" alt="Help"/> Help</a> | <a href="#pagetop">Top <img src="images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">&lt;table&gt; ... &lt;/table&gt;</td><td>Define a Table</td></tr>
+	<tr><td class="attrhead">&lt;table&gt; Tag Attributes:</td></tr>
+	<tr><td class="codeindt">border=&quot;?&quot;</td>	<td>Thickness of outside border</td>

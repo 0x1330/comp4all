@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<title>CSS Cheat Sheet - A Simple Guide to HTML</title>
+<!-- Meta tags -->
+<meta name="description" content="CSS Cheat Sheet - A simple html guide. An easy guide and cheat sheet for beginners to learn HTML, covering several topics on the basic HTML tags you are likely to need when learning how to make your own website" />
+<meta name="keywords" content="html, guide, simple, beginner, list, reference, lookup, htm, HTML, tags, examples, tutorial, concise, web, design, easy, form, table, image, frame, CSS, style, stylesheet, summary, cheatsheet, cheat, sheet, colour" />
+<meta name="resource-type" content="document" />
+<meta name="author" content="Robert Duncan, rhduncan@hotmail.com" />
+<meta name="copyright" content="(c) Robert Duncan" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="en" />
+<meta http-equiv="last-modified" content="07 Feb 2012, 09:37:02" />
+<!-- Meta links -->
+<link rel="start" href="http://www.simplehtmlguide.com/" title="A Simple Guide to HTML" />
+<link rel="stylesheet" type="text/css" href="style-prp.css" title="dark" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="favicon.ico" />
+<!-- AddThis account definition -->
+<script type="text/javascript">var addthis_pub="rhduncan";</script>
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=rhduncan"></script>
+<script type="text/javascript">
+<!--
+	var addthis_config = {
+	      services_custom: {
+	              name: "Flattr",
+	              url: "http://flattr.com/submit/auto?url=http%3A%2F%2Fwww.simplehtmlguide.com%2F&title={{title}}&user_id=drgrog&category=text&language=en_GB",
+	              icon: "http://flattr.com/_img/icons/flattr_logo_16.png"}
+	}
+// -->
+</script>
+<script type="text/javascript">
+<!--
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28963230-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// -->
+</script>
+</head>
+
+<body id="home">
+<div id="wrap">
+
+ <!-- Header Image -->
+ <div id="logo">
+	<div id="logotext">A Simple Guide to HTML <a name="pagetop"></a> </div>
+ </div>
+ <!-- Top Navigation -->
+ <ul id="nav">
+  <li><a href="/">home</a></li>
+  <li><a href="essential.php" >html guide</a></li>
+  <li><a href="cheatsheet.php" >html cheat sheet</a></li>
+  <li><a href="csscheatsheet.php" >css cheat sheet</a></li>
+  <li><a href="examplesheet.php" >examples</a></li>
+  <li><a href="livedemo.php" >live demo</a></li>
+  <li><a href="search.php" >search</a></li>
+  <li><a href="contact.php" >contact me</a></li>
+ </ul>
+
+<div id="main-body">
+<div id="content">
+
+<!-- Page Content Starts Here -->
+<div class="mainheading" style="background: url(./images/help_faq.png) no-repeat top right;">
+<h1>CSS Cheat Sheet</h1></div>
+
+<div class="chapter">
+<p>A quick reference list of basic <a href="whatiscss.php">CSS</a> properties for changing <a href="#text">text</a>, <a href="#layout">layout</a> and <a href="#colours">colour</a> of HTML elements, as well as how to include them in your web page.</p>
+<p>Not sure what <a href="whatiscss.php">CSS</a> is, perhaps see the <a href="whatiscss.php">cascading style sheets</a> introduction first :-)</p>
+</div>
+
+<div class="chapter">
+<h3 class="bld">Using Styles <a name="using"></a></h3>
+
+<p class="bld">An external CSS file</p>
+<pre class="code"><code>&lt;head&gt;
+&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;style.css&quot; title=&quot;style&quot;&gt;
+&lt;/head&gt;
+</code></pre>
+
+<p class="bld">Within the html header</p>
+<pre class="code"><code>&lt;head&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+ h1 {
+    color:red;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+</code></pre>
+
+<p class="bld">Inline in the HTML</p>
+<pre class="code"><code>&lt;p style=&quot;color:red;&quot;&gt;Some red text&lt;/p&gt;</code></pre>
+
+</div>
+
+<div class="chapter" style="padding-bottom:8px; text-align:center;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2119566567527844";
+/* 20090121_new_site_banner_468x60 */
+google_ad_slot = "5659933468";
+google_ad_width = 470;
+google_ad_height = 62;
+// -->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+<div id="cheatsheet">
+
+ <div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Text Styles <a name="text"></a> </h3></th>
+	<th class="toplink"><a href="#pagetop">Top <img src="/images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">text-align: left;</td> <td>Horizontal Alignment - <code>left | center | right</code></td></tr>
+	<tr><td class="code">text-decoration: underline;</td> <td>Text Decorations - eg. <code>none | underline | line-through</code></td></tr>
+	<tr><td class="code">font-family: <i>fontname</i>;</td> <td>Font Face (Typeface) - eg. <code>Verdana, Arial, Helvetica</code></td></tr>
+	<tr><td class="code">font-size: 16pt;</td> <td>Font Size or Height - eg. <code>12pt | 15px</code></td></tr>
+	<tr><td class="code">font-weight: bold;</td> <td>Font Weight (Boldness) - eg. <code>bold | normal | 200</code></td></tr>
+	</table>
+ </div>
+
+ <div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Size and Layout <a name="layout"></a> </h3></th>
+	<th class="toplink"><a href="#pagetop">Top <img src="/images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">width: <i>400px</i>;</td> <td>Width of HTML element - eg. <code>100px | 50%</code></td></tr>
+	<tr><td class="code">height: <i>100%</i>;</td> <td>Height of HTML element - eg. <code>20px | 100%</code></td></tr>
+	<tr><td class="code">margin: <i>5px</i>;</td> <td>Margin - space around an element, or distance between two elements</td></tr>
+	<tr><td class="code">margin-top: <i>1px</i>;</td> <td>Top Margin. Also try <code>-bottom: -left: or -right:</code></td></tr>
+	<tr><td class="code">padding: <i>5px</i>;</td> <td>Padding - distance between an elements contents and its border</td></tr>
+	<tr><td class="code">padding-top: <i>1px</i>;</td> <td>Top Padding. Also try <code>-bottom: -left: or -right:</code></td></tr>
+	</table>
+ </div>
+
+ <div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>Colours &amp; Borders<a name="colours"></a> </h3></th>
+	<th class="toplink"><a href="#pagetop">Top <img src="/images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">color: <i>red</i>;</td> <td>Element <a href="colours.php">Colour</a> - eg. <code>red | #FF0000</code></td></tr>
+	<tr><td class="code">background-color: <i>white</i>;</td> <td>Background <a href="colours.php">Colour</a> of element</td></tr>
+	<tr><td class="code">background-image: <i>url(image.gif)</i>;</td> <td>Background <a href="colours.php">Colour</a> of element</td></tr>
+	<tr><td class="code">border-color: <i>yellow</i>;</td> <td>Border <a href="colours.php">Colour</a> of element</td></tr>
+	<tr><td class="code">border: <i>1px solid blue</i>;</td> <td>Width, style and colour of border defined together</td></tr>
+	</table>
+ </div>
+
+ <div class="chapter">
+	<table summary="layout">
+	<tr><th><h3>CSS Lists <a name="lists"></a> </h3></th>
+	<th class="toplink"><a href="#pagetop">Top <img src="/images/arrow_up.png" class="mid" alt="Top" /></a></th></tr>
+	<tr><td class="code">list-style: <i>none</i>;</td> <td>Clear existing bullet types set by html list tags</td></tr>
+	</table>
+ </div>
+
+</div>
+
+<div class="chapter" style="padding-bottom:8px; text-align:center;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2119566567527844";
+/* 20090121_new_site_banner_468x60 */
+google_ad_slot = "5659933468";
+google_ad_width = 470;
+google_ad_height = 62;
+// -->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+<div id="contentfooter">
+<div class="left">
+
+ <a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;username=rhduncan"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a> |
+ <a href="contact.php?ref=csscheatsheet"><img src="images/notebook_pencil.png" alt="Feedback" /> Feedback</a>
+
+</div><div class="right">
+
+Prev | 
+<a href="csscheatsheet.php#pagetop">Top <img src="images/arrow_up.png" alt="Top" /></a> | 
+Next
+
+</div>
+</div>
+<!-- Page Content Ends Here -->
+</div> <!-- end #content -->
+</div> <!-- end #main-body -->
+<!-- Sidebar -->
+<div id="sidebar">
+
+ <div class="sidebar-sharebutton">
+<div class="addthis_toolbox addthis_default_style ">
+<a class="addthis_button_preferred_1"></a>
+<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_preferred_3"></a>
+<a class="addthis_button_preferred_4"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_counter addthis_bubble_style"></a>
+</div>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=rhduncan"></script>
+ </div>
+
+ <div class="sidebar-item">
+  <h3>CSS Guide - Menu</h3>
+ <ul>
+  <li><a href="csscheatsheet.php#using">Using Styles</a></li>
+  <li><a href="csscheatsheet.php#text">Text and Font</a></li>
+  <li><a href="csscheatsheet.php#layout">Size and Layout</a></li>
+  <li><a href="csscheatsheet.php#layout">Margins</a></li>
+  <li><a href="csscheatsheet.php#colours">Colours</a></li>
+  <li><a href="csscheatsheet.php#colours">Backgrounds</a></li>
+  <li><a href="csscheatsheet.php#colours">Borders</a></li>
+  <li><a href="csscheatsheet.php#lists">CSS Lists</a></li>
+</ul>
+</div>
+
+<div class="sidebar-item">
+<p><br />
+ <a href="http://db.tt/QHIi4cl">Get Dropbox!</a> - <small>bonus 250mb using referral link</small></p>
+</div>
+
+<p>&nbsp;</p>
+<div class="sidebar-item">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2119566567527844";
+/* new_cheatsheet_120x600_20090218 */
+google_ad_slot = "7996429911";
+google_ad_width = 122;
+google_ad_height = 602;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+
+</div> <!-- end #sidebar -->
+<div id="footer">
+<p><span style="float: left;"><a href="http://www.simplehtmlguide.com">www.simplehtmlguide.com</a></span>
+A Simple Guide to HTML - <!-- &#169; - --> <a href="contact.php">Robert Duncan</a></p>
+</div>
+</div> <!-- end #wrap -->
+</body>
+</html>
